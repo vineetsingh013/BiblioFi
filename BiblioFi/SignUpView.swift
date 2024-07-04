@@ -75,7 +75,7 @@ struct SignUpView: View {
                 
                 Spacer()
                 
-                NavigationLink(destination: ContentView()) {
+                NavigationLink(destination: LoginPage()) {
                     Text("Already have an account?")
                         .font(.footnote)
                         .foregroundColor(.gray)

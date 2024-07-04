@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		08E4F5392C35E4D500D290EF /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08E4F5382C35E4D500D290EF /* SignUpView.swift */; };
 		08E4F53B2C35E53E00D290EF /* NewSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08E4F53A2C35E53E00D290EF /* NewSwift.swift */; };
+		08E4F53D2C3665AF00D290EF /* LoginPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08E4F53C2C3665AF00D290EF /* LoginPage.swift */; };
 		446A831F2C354A060042A40E /* BiblioFiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 446A831E2C354A060042A40E /* BiblioFiApp.swift */; };
 		446A83212C354A060042A40E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 446A83202C354A060042A40E /* ContentView.swift */; };
 		446A83232C354A080042A40E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 446A83222C354A080042A40E /* Assets.xcassets */; };
@@ -29,6 +30,7 @@
 /* Begin PBXFileReference section */
 		08E4F5382C35E4D500D290EF /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
 		08E4F53A2C35E53E00D290EF /* NewSwift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewSwift.swift; sourceTree = "<group>"; };
+		08E4F53C2C3665AF00D290EF /* LoginPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPage.swift; sourceTree = "<group>"; };
 		446A831B2C354A060042A40E /* BiblioFi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BiblioFi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		446A831E2C354A060042A40E /* BiblioFiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BiblioFiApp.swift; sourceTree = "<group>"; };
 		446A83202C354A060042A40E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -79,6 +81,7 @@
 			children = (
 				446A831E2C354A060042A40E /* BiblioFiApp.swift */,
 				446A83202C354A060042A40E /* ContentView.swift */,
+				08E4F53C2C3665AF00D290EF /* LoginPage.swift */,
 				08E4F53A2C35E53E00D290EF /* NewSwift.swift */,
 				08E4F5382C35E4D500D290EF /* SignUpView.swift */,
 				446A83222C354A080042A40E /* Assets.xcassets */,
@@ -185,6 +188,7 @@
 				08E4F53B2C35E53E00D290EF /* NewSwift.swift in Sources */,
 				446A83212C354A060042A40E /* ContentView.swift in Sources */,
 				08E4F5392C35E4D500D290EF /* SignUpView.swift in Sources */,
+				08E4F53D2C3665AF00D290EF /* LoginPage.swift in Sources */,
 				446A831F2C354A060042A40E /* BiblioFiApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
