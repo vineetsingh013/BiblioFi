@@ -75,7 +75,7 @@ struct SignUpView: View {
                 
                 Spacer()
                 
-                NavigationLink(destination: LoginPage()) {
+                NavigationLink(destination: LoginPage().navigationBarBackButtonHidden(true)) {
                     Text("Already have an account?")
                         .font(.footnote)
                         .foregroundColor(.gray)

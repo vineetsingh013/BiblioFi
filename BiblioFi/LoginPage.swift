@@ -10,7 +10,7 @@ import SwiftUI
 struct LoginPage: View {
     @State private var email: String = ""
     @State private var password: String = ""
-    
+
     var body: some View {
         NavigationView {
             VStack(spacing: 20) {
@@ -18,11 +18,11 @@ struct LoginPage: View {
                     .font(.largeTitle)
                     .fontWeight(.bold)
                     .padding(.top, 100)
-                
+
                 Text("Please login to your account")
                     .font(.subheadline)
                     .padding(.bottom, 40)
-                
+
                 TextField("Email", text: $email)
                     .padding()
                     .background(Color.white)
@@ -30,27 +30,26 @@ struct LoginPage: View {
                     .autocapitalization(.none)
                     .keyboardType(.emailAddress)
                     .padding(.horizontal, 20)
-                
+
                 SecureField("Password", text: $password)
                     .padding()
                     .background(Color.white)
                     .cornerRadius(8)
                     .padding(.horizontal, 20)
-                
+
                 HStack {
                     Spacer()
                     Button(action: {
                         // Handle forget password action
-                    }) 
-                    {
-                        Text("Create new account")
+                    }) {
+                        Text("Forgot password?")
                             .font(.footnote)
-                            .foregroundColor(.gray)
+                            .foregroundColor(.blue)
                     }
                     .padding(.trailing, 20)
                 }
-                
-                NavigationLink(destination: NewSwift()) { // Assuming HomeView is your destination after login
+
+                NavigationLink(destination: NewSwift().navigationBarBackButtonHidden(true)) {
                     Text("Login")
                         .font(.headline)
                         .foregroundColor(.white)
@@ -61,11 +60,18 @@ struct LoginPage: View {
                 }
                 .padding(.horizontal, 20)
                 .padding(.top, 20)
-                
+
+                NavigationLink(destination: SignUpView().navigationBarBackButtonHidden(true)) {
+                    Text("Create new account")
+                        .font(.footnote)
+                        .foregroundColor(.gray)
+                }
+                .padding(.trailing, 20)
+
                 Text("Or continue with")
                     .foregroundColor(.gray)
                     .padding(.top, 20)
-                
+
                 HStack(spacing: 20) {
                     Button(action: {
                         // Handle continue with Google action
@@ -108,7 +114,7 @@ struct LoginPage: View {
                     }
                 }
                 .padding(.horizontal, 20)
-                
+
                 Spacer()
             }
             .padding()
@@ -121,21 +127,20 @@ extension Color {
     init(hex: String) {
         let scanner = Scanner(string: hex)
         _ = scanner.scanString("#")
-        
+
         var rgbValue: UInt64 = 0
         scanner.scanHexInt64(&rgbValue)
-        
+
         let red = Double((rgbValue & 0xff0000) >> 16) / 255.0
         let green = Double((rgbValue & 0x00ff00) >> 8) / 255.0
         let blue = Double(rgbValue & 0x0000ff) / 255.0
-        
+
         self.init(red: red, green: green, blue: blue)
     }
 }
 
-struct LoginView_Previews: PreviewProvider {
+struct LoginPage_Previews: PreviewProvider {
     static var previews: some View {
         LoginPage()
     }
 }
-
