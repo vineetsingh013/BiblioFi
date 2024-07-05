@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		087C39012C37A7B800F4E326 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 087C39002C37A7B800F4E326 /* HomeView.swift */; };
+		087C39032C37A7E100F4E326 /* LibraryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 087C39022C37A7E100F4E326 /* LibraryView.swift */; };
+		087C39052C37A81E00F4E326 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 087C39042C37A81E00F4E326 /* ProfileView.swift */; };
+		087C39072C37CBDA00F4E326 /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = 087C39062C37CBDA00F4E326 /* Book.swift */; };
 		08E4F5392C35E4D500D290EF /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08E4F5382C35E4D500D290EF /* SignUpView.swift */; };
 		08E4F53B2C35E53E00D290EF /* NewSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08E4F53A2C35E53E00D290EF /* NewSwift.swift */; };
 		08E4F53D2C3665AF00D290EF /* LoginPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08E4F53C2C3665AF00D290EF /* LoginPage.swift */; };
@@ -28,6 +32,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		087C39002C37A7B800F4E326 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		087C39022C37A7E100F4E326 /* LibraryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryView.swift; sourceTree = "<group>"; };
+		087C39042C37A81E00F4E326 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		087C39062C37CBDA00F4E326 /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
 		08E4F5382C35E4D500D290EF /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
 		08E4F53A2C35E53E00D290EF /* NewSwift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewSwift.swift; sourceTree = "<group>"; };
 		08E4F53C2C3665AF00D290EF /* LoginPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPage.swift; sourceTree = "<group>"; };
@@ -83,6 +91,10 @@
 				446A83202C354A060042A40E /* ContentView.swift */,
 				08E4F53C2C3665AF00D290EF /* LoginPage.swift */,
 				08E4F53A2C35E53E00D290EF /* NewSwift.swift */,
+				087C39022C37A7E100F4E326 /* LibraryView.swift */,
+				087C39042C37A81E00F4E326 /* ProfileView.swift */,
+				087C39002C37A7B800F4E326 /* HomeView.swift */,
+				087C39062C37CBDA00F4E326 /* Book.swift */,
 				08E4F5382C35E4D500D290EF /* SignUpView.swift */,
 				446A83222C354A080042A40E /* Assets.xcassets */,
 				446A832E2C354B4B0042A40E /* GoogleService-Info.plist */,
@@ -185,9 +197,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				087C39052C37A81E00F4E326 /* ProfileView.swift in Sources */,
+				087C39032C37A7E100F4E326 /* LibraryView.swift in Sources */,
 				08E4F53B2C35E53E00D290EF /* NewSwift.swift in Sources */,
 				446A83212C354A060042A40E /* ContentView.swift in Sources */,
 				08E4F5392C35E4D500D290EF /* SignUpView.swift in Sources */,
+				087C39072C37CBDA00F4E326 /* Book.swift in Sources */,
+				087C39012C37A7B800F4E326 /* HomeView.swift in Sources */,
 				08E4F53D2C3665AF00D290EF /* LoginPage.swift in Sources */,
 				446A831F2C354A060042A40E /* BiblioFiApp.swift in Sources */,
 			);

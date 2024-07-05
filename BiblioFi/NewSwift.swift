@@ -10,13 +10,27 @@ import SwiftUI
 
 struct NewSwift: View {
     var body: some View {
-        VStack {
-            Text("Welcome to the new screen!")
-                .font(.largeTitle)
-                .padding()
-            // Add more UI elements as needed
-            Spacer()
-        }
+        TabView {
+                    HomeView()
+                        .tabItem {
+                            Image(systemName: "house")
+                            Text("Home")
+                           
+                        }
+            
+                    
+                    LibraryView()
+                        .tabItem {
+                            Image(systemName: "books.vertical")
+                            Text("Library")
+                        }
+                    
+                    ProfileView()
+                        .tabItem {
+                            Image(systemName: "person")
+                            Text("Profile")
+                        }
+                }
         .navigationBarBackButtonHidden(true)
         .navigationBarHidden(true)
     }
