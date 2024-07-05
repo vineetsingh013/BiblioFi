@@ -30,6 +30,9 @@
 		446A83402C354BD90042A40E /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 446A833F2C354BD90042A40E /* FirebaseFirestore */; };
 		446A83422C354BD90042A40E /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 446A83412C354BD90042A40E /* FirebaseFirestoreSwift */; };
 		446A83442C354BD90042A40E /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 446A83432C354BD90042A40E /* FirebaseStorage */; };
+		447E08442C371AFD006BC7F8 /* AuthenticationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447E08432C371AFD006BC7F8 /* AuthenticationManager.swift */; };
+		447E08472C3725F4006BC7F8 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447E08462C3725F4006BC7F8 /* Colors.swift */; };
+		447E084B2C372767006BC7F8 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447E084A2C372767006BC7F8 /* DataModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +50,9 @@
 		446A83222C354A080042A40E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		446A83252C354A080042A40E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		446A832E2C354B4B0042A40E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		447E08432C371AFD006BC7F8 /* AuthenticationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationManager.swift; sourceTree = "<group>"; };
+		447E08462C3725F4006BC7F8 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		447E084A2C372767006BC7F8 /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +95,9 @@
 		446A831D2C354A060042A40E /* BiblioFi */ = {
 			isa = PBXGroup;
 			children = (
+				447E08492C372759006BC7F8 /* DataModel */,
+				447E08482C372625006BC7F8 /* Onboarding */,
+				447E08452C3725E5006BC7F8 /* Utils */,
 				446A831E2C354A060042A40E /* BiblioFiApp.swift */,
 				446A83202C354A060042A40E /* ContentView.swift */,
 				08E4F53C2C3665AF00D290EF /* LoginPage.swift */,
@@ -109,6 +118,30 @@
 				446A83252C354A080042A40E /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		447E08452C3725E5006BC7F8 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				447E08462C3725F4006BC7F8 /* Colors.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		447E08482C372625006BC7F8 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				447E08432C371AFD006BC7F8 /* AuthenticationManager.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		447E08492C372759006BC7F8 /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+				447E084A2C372767006BC7F8 /* DataModel.swift */,
+			);
+			path = DataModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -200,6 +233,9 @@
 				08E4F53B2C35E53E00D290EF /* NewSwift.swift in Sources */,
 				446A83212C354A060042A40E /* ContentView.swift in Sources */,
 				08E4F5392C35E4D500D290EF /* SignUpView.swift in Sources */,
+				447E08472C3725F4006BC7F8 /* Colors.swift in Sources */,
+				447E08442C371AFD006BC7F8 /* AuthenticationManager.swift in Sources */,
+				447E084B2C372767006BC7F8 /* DataModel.swift in Sources */,
 				08E4F53D2C3665AF00D290EF /* LoginPage.swift in Sources */,
 				446A831F2C354A060042A40E /* BiblioFiApp.swift in Sources */,
 				2FE588E72C3764DC0059714B /* DurationPickerView.swift in Sources */,
