@@ -25,6 +25,7 @@
 		446A83402C354BD90042A40E /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 446A833F2C354BD90042A40E /* FirebaseFirestore */; };
 		446A83422C354BD90042A40E /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 446A83412C354BD90042A40E /* FirebaseFirestoreSwift */; };
 		446A83442C354BD90042A40E /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 446A83432C354BD90042A40E /* FirebaseStorage */; };
+		9F3A66D42C37AB3F0064E9E3 /* LibraryTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F3A66D32C37AB3F0064E9E3 /* LibraryTab.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		446A83222C354A080042A40E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		446A83252C354A080042A40E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		446A832E2C354B4B0042A40E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		9F3A66D32C37AB3F0064E9E3 /* LibraryTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryTab.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +86,7 @@
 				08E4F53C2C3665AF00D290EF /* LoginPage.swift */,
 				08E4F53A2C35E53E00D290EF /* NewSwift.swift */,
 				08E4F5382C35E4D500D290EF /* SignUpView.swift */,
+				9F3A66D32C37AB3F0064E9E3 /* LibraryTab.swift */,
 				446A83222C354A080042A40E /* Assets.xcassets */,
 				446A832E2C354B4B0042A40E /* GoogleService-Info.plist */,
 				446A83242C354A080042A40E /* Preview Content */,
@@ -188,6 +191,7 @@
 				08E4F53B2C35E53E00D290EF /* NewSwift.swift in Sources */,
 				446A83212C354A060042A40E /* ContentView.swift in Sources */,
 				08E4F5392C35E4D500D290EF /* SignUpView.swift in Sources */,
+				9F3A66D42C37AB3F0064E9E3 /* LibraryTab.swift in Sources */,
 				08E4F53D2C3665AF00D290EF /* LoginPage.swift in Sources */,
 				446A831F2C354A060042A40E /* BiblioFiApp.swift in Sources */,
 			);
