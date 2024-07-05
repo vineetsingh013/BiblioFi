@@ -7,9 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+
+		2FE588E52C3660E90059714B /* BookDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FE588E42C3660E90059714B /* BookDescription.swift */; };
+		2FE588E72C3764DC0059714B /* DurationPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FE588E62C3764DC0059714B /* DurationPickerView.swift */; };
+
 		08E4F5392C35E4D500D290EF /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08E4F5382C35E4D500D290EF /* SignUpView.swift */; };
 		08E4F53B2C35E53E00D290EF /* NewSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08E4F53A2C35E53E00D290EF /* NewSwift.swift */; };
 		08E4F53D2C3665AF00D290EF /* LoginPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08E4F53C2C3665AF00D290EF /* LoginPage.swift */; };
+
 		446A831F2C354A060042A40E /* BiblioFiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 446A831E2C354A060042A40E /* BiblioFiApp.swift */; };
 		446A83212C354A060042A40E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 446A83202C354A060042A40E /* ContentView.swift */; };
 		446A83232C354A080042A40E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 446A83222C354A080042A40E /* Assets.xcassets */; };
@@ -28,9 +33,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+
+		2FE588E42C3660E90059714B /* BookDescription.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookDescription.swift; sourceTree = "<group>"; };
+		2FE588E62C3764DC0059714B /* DurationPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DurationPickerView.swift; sourceTree = "<group>"; };
+
 		08E4F5382C35E4D500D290EF /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
 		08E4F53A2C35E53E00D290EF /* NewSwift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewSwift.swift; sourceTree = "<group>"; };
 		08E4F53C2C3665AF00D290EF /* LoginPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPage.swift; sourceTree = "<group>"; };
+
 		446A831B2C354A060042A40E /* BiblioFi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BiblioFi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		446A831E2C354A060042A40E /* BiblioFiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BiblioFiApp.swift; sourceTree = "<group>"; };
 		446A83202C354A060042A40E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -87,6 +97,8 @@
 				446A83222C354A080042A40E /* Assets.xcassets */,
 				446A832E2C354B4B0042A40E /* GoogleService-Info.plist */,
 				446A83242C354A080042A40E /* Preview Content */,
+				2FE588E42C3660E90059714B /* BookDescription.swift */,
+				2FE588E62C3764DC0059714B /* DurationPickerView.swift */,
 			);
 			path = BiblioFi;
 			sourceTree = "<group>";
@@ -190,6 +202,8 @@
 				08E4F5392C35E4D500D290EF /* SignUpView.swift in Sources */,
 				08E4F53D2C3665AF00D290EF /* LoginPage.swift in Sources */,
 				446A831F2C354A060042A40E /* BiblioFiApp.swift in Sources */,
+				2FE588E72C3764DC0059714B /* DurationPickerView.swift in Sources */,
+				2FE588E52C3660E90059714B /* BookDescription.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
